@@ -1,0 +1,43 @@
+There is 4 main types of functions:
+
+1)Have no parameters and no return a value
+    
+    def Function():
+        print("Hello World!")
+
+
+2)No parameters but do return a value
+    
+    def Function():
+        s = input("Your name: ")
+        return s
+
+
+3)Have parameters and don't return a value
+    
+    def Function(name):
+        print("Your name is " + name)
+
+
+4)Have parameters and return a value
+    
+    def Function(n1, n2):
+        return n1+n2
+    
+in JAVA:
+
+    void Hello()
+    {
+        System.out.println("Hello World!");
+    }
+when writing JAVA is a must to define return type ,here is void, of function
+
+
+in KOTLIN:
+
+    fun Get_Name(name : String)
+    {
+        println("Your name is " + name)
+    }
+when writing KOTLIN we need a special word to define function ,here is fun, like python
+and in parameters the data type must be assigned
